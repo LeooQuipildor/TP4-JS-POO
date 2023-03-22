@@ -52,9 +52,11 @@ libro2.mostrar();
 
 if (libro1.numeroPaginas > libro2.numeroPaginas) {
     document.write(`El libro ${libro1.titulo} tiene mas paginas que ${libro2.titulo}`);
-} else if (libro1.numeroPaginas < libro2.numeroPaginas) {
+}
+else if (libro1.numeroPaginas < libro2.numeroPaginas) {
     document.write(`El libro ${libro2.titulo} tiene mas paginas que ${libro1.titulo}`);
-} else {
+}
+else {
     document.write("Los dos libros tienen el mismo número de páginas.");
 }
 
